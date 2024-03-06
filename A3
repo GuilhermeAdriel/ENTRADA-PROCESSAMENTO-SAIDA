@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class Dividir {
+    public static void main(String[] args) {
+       Scanner scanner = new Scanner (System.in);{
+       
+       int valor1 = 0; 
+       int valor2 = 0;
+       
+       System.out.println ("Informe a primeiro valor");
+       valor1 = scanner.nextInt();
+       System.out.println("Informe o segundo valor");
+       valor2 = scanner.nextInt();
+       
+       
+       double media = (valor1 + valor2) / 2;
+       System.out.println("O valor dividido eh " + media);
+            
+        }
+        
+    }
+}
